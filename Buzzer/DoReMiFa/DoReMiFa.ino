@@ -1,12 +1,29 @@
-#define BUZZER 7
-int notas1[] = { 524, 588, 660, 699, 699, 699, 524, 588, 524, 588, 588, 588 , 524, 785, 699, 660, 660, 660, 524, 588, 660, 699, 699, 699 };
+// Projeto 11 - Dó Ré Mi
+ 
+#define DO  262
+#define RE  294
+#define MI  330
+#define FA  349
+#define SOL  392
+#define LA  440
+#define SI  494
+#define DO_2  523
+ 
+int pinoBuzzer = 6;
+ 
+int melodia[] = {
+  DO, RE, MI, FA, SOL, LA, SI, DO_2
+};
+ 
 void setup() {
-pinMode(BUZZER, OUTPUT);
+   // configura pino do buzzer como saída
+  pinMode(pinoBuzzer,OUTPUT);
 }
+ 
 void loop() {
-for (int i = 0; i < 24; i++) {
-tone(BUZZER, notas1[i], 900);
-delay(900);
-}
-delay(1000);
+  for(int i=0; i<8; i++)
+  {
+    tone(pinoBuzzer, melodia[i]);
+    delay(500);
+  }
 }
