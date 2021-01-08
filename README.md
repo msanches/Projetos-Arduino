@@ -21,4 +21,4 @@ void loop () {
     delay (1000);                  // espera 1 segundo.
 }
 ```
-> Veja o exemplo completo [clicando aqui](https://github.com/msanches/Projetos-Arduino/tree/main/PiscaLed)
+> Veja esse exemplo completo [clicando aqui](https://github.com/msanches/Projetos-Arduino/tree/main/PiscaLed)
