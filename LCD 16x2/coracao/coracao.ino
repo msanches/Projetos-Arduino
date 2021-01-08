@@ -18,7 +18,7 @@ void setup()
 {
   lcd.begin(16, 2);
   int i, j, l;
-  lcd.print("Quem e essa piranha");
+  lcd.print("Love, sweet love");
   lcd.createChar(1, heart); // envia nosso character p/ o display
 }
 
