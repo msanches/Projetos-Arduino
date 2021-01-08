@@ -1,4 +1,4 @@
-# Dó Ré Mi Fá
+# Projeto Dó Ré Mi Fá
 ## Utilizando o Buzzer com Arduino
 
 Na música, cada nota musical possui uma frequência específica dada em hertz (Hz). Olhando as teclas de um piano é possível ver a frequência de cada uma das notas de uma escala de Dó por exemplo. Neste projeto iremos mostrar como é possível reproduzir notas musicais utilizando um buzzer com Arduino.
@@ -9,15 +9,12 @@ O buzzer é um pequeno alto falante capaz de gerar tons em frequências determin
 
 ### Material necessário
 
-1x Buzzer
-
-2x Jumper Macho-macho
-
-1x Protoboard
-
-1x Cabo USB
-
-1x Placa Uno
+- 1x Buzzer
+- 2x Jumper Macho-macho
+- 1x Protoboard
+- 1x Cabo USB
+- 1x Placa Uno
+- 1x Resistor de 100 ohms
 
 ### Montagem do circuito
-![](http://dwebkit.esy.es/repositorio/Arduino/buzzer.png)
+![](http://dwebkit.esy.es/repositorio/Arduino/Buzzer.png)
