@@ -1,4 +1,4 @@
-// Projeto 11 - Dó Ré Mi
+// Projeto Dó Ré Mi
  
 #define DO  262
 #define RE  294
