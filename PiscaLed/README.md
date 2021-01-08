@@ -11,4 +11,4 @@ O objetivo deste projeto é mostrar a interação do arduino, através de suas p
 - 2x fios jumper;
 
 ## Montagem do circuito
-![](http://dwebkit.esy.es/repositorio/Arduino/arduino_pisca_led.jpg)
+![](http://dwebkit.esy.es/repositorio/Arduino/pisca_led.jpg)
