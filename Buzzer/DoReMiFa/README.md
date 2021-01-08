@@ -1,4 +1,4 @@
-# Dó Ré Mi Fá
+# Projeto Dó Ré Mi Fá
 ## Utilizando o Buzzer com Arduino
 
 Na música, cada nota musical possui uma frequência específica dada em hertz (Hz). Olhando as teclas de um piano é possível ver a frequência de cada uma das notas de uma escala de Dó por exemplo. Neste projeto iremos mostrar como é possível reproduzir notas musicais utilizando um buzzer com Arduino.
