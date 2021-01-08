@@ -1,4 +1,4 @@
-# Proejto Sirene
+# Projeto Sirene
 
 ## Utilizando o Buzzer com Arduino
 
