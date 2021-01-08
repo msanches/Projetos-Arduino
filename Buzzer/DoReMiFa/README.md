@@ -20,4 +20,4 @@ O buzzer é um pequeno alto falante capaz de gerar tons em frequências determin
 1x Placa Uno
 
 ### Montagem do circuito
-![](http://dwebkit.esy.es/repositorio/Arduino/buzzer.png)
+![](http://dwebkit.esy.es/repositorio/Arduino/Buzzer2.png)
