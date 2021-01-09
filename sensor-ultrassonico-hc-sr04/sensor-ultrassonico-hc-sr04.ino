@@ -24,7 +24,7 @@ void loop() {
   digitalWrite(trigPin, LOW);
 
   duration = pulseIn(echoPin, HIGH);
-  distance = (duration*.0343)/2;
+  distance = (duration*.0340)/2;
   
   Serial.print("Distancia: ");
   Serial.print(distance);
