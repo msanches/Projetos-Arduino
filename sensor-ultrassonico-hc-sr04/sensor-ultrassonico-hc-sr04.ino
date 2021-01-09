@@ -5,23 +5,12 @@
  *
  * by Isaac100
  */
-// include the library code:
-#include <LiquidCrystal.h>
-
-// initialize the library with the numbers of the interface pins
-LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
-
 const int trigPin = 13;
 const int echoPin = 8;
 
 float duration, distance;
 
 void setup() {
-  // set up the LCD's number of columns and rows: 
-  lcd.begin(16, 2);
-  // Print a message to the LCD.
-  //lcd.print("hello, world!");
-  
   pinMode(trigPin, OUTPUT);
   pinMode(echoPin, INPUT);
   Serial.begin(9600);
@@ -36,13 +25,9 @@ void loop() {
 
   duration = pulseIn(echoPin, HIGH);
   distance = (duration*.0343)/2;
-  lcd.setCursor(0, 0);
-  lcd.print("Distancia: ");
-  lcd.setCursor(0, 1);
-  lcd.print(distance);
-  lcd.print("cm");
   
-  //Serial.print("Distance: ");
-  //Serial.println(distance);
+  Serial.print("Distancia: ");
+  Serial.print(distance);
+  Serial.print(" cm\n");
   delay(100);
 }
