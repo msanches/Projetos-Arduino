@@ -11,5 +11,5 @@
 
 ## Montagem do circuito
 Neste projeto pretende-se exibir o valor da temperatura no monitor serial do ambiente de programação do Arduino.
-![](http://dwebkit.esy.es/repositorio/Arduino/LM35_bb.png)
+![](http://dwebkit.esy.es/repositorio/Arduino/TemperaturSensorLM35_bb.png)
 
