@@ -1,8 +1,8 @@
 /* Temperatura em Celsius */
 
 int analogPin = 0;
-int valAnalog;
-int temperatura;
+float valAnalog;
+float temperatura;
 
 void setup() {
   Serial.begin(9600); 

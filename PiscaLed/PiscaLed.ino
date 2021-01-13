@@ -1,12 +1,12 @@
 //Projeto arduino pisca led
  
 void setup() {
-  pinMode(6,OUTPUT);
+  pinMode(12,OUTPUT);
 }
  
 void loop() {
-  digitalWrite(6,HIGH);
+  digitalWrite(12,HIGH);
   delay(1000);
-  digitalWrite(6,LOW);
+  digitalWrite(12,LOW);
   delay(1000);
 }
