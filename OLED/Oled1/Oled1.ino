@@ -17,7 +17,7 @@ void setup(){
 }
 void loop() {
   display.setCursor(0,0); //POSIÇÃO EM QUE O CURSOR IRÁ FAZER A ESCRITA
-  display.print("A MasterWalker Shop"); //ESCREVE O TEXTO NO DISPLAY
+  display.print("O Marcantonyo"); //ESCREVE O TEXTO NO DISPLAY
   display.display(); //EFETIVA A ESCRITA NO DISPLAY
   delay(1500); //INTERVALO DE 1,5 SEGUNDOS
   //display.clearDisplay(); //LIMPA AS INFORMAÇÕES DO DISPLAY
