@@ -7,24 +7,19 @@ int temperatura;
 
 void draw() {
   u8g.setFont(u8g_font_unifont);
-  u8g.setPrintPos(0, 20); 
-  valAnalog = analogRead(analogPin);
-  temperatura = ( 5 * valAnalog * 100) / 1024 ;
-  
-  Serial.println(temperatura);
-
-    //Seleciona a fonte de texto
-    u8g.setFont(u8g_font_8x13B);
-    //u8g.setFont(u8g_font_fur25);
-    //Linha superior - temperatura 
-    u8g.setPrintPos(5, 15);
-    u8g.print(temperatura);
-    u8g.drawCircle(28,8,3);
-    u8g.drawStr( 36, 15, "C");  
-    u8g.setFont(u8g_font_fub25);
-    u8g.drawStr( 8, 57, "Marco");
-    //moldura
-    u8g.drawRFrame(0,20, 125, 44, 4);
+  u8g.setPrintPos(0, 20);
+  //Seleciona a fonte de texto
+  u8g.setFont(u8g_font_8x13B);
+  //u8g.setFont(u8g_font_fur25);
+  //Linha superior - temperatura
+  u8g.setPrintPos(5, 15);
+  u8g.print(temperatura);
+  u8g.drawCircle(28, 8, 3);
+  u8g.drawStr( 36, 15, "C");
+  u8g.setFont(u8g_font_fub25);
+  u8g.drawStr( 8, 57, "Marco");
+  //moldura
+  u8g.drawRFrame(0, 20, 125, 44, 4);
 }
 
 void setup() {
@@ -34,12 +29,18 @@ void setup() {
 }
 
 void loop() {
+  valAnalog = analogRead(analogPin);
+  int temp = ( 5 * valAnalog * 100) / 1024;
+  if(temp > 0){
+    temperatura = ( 5 * valAnalog * 100) / 1024;
+  }
+  Serial.println(temperatura);
   // picture loop
-  u8g.firstPage();  
+  u8g.firstPage();
   do {
     draw();
-  } while( u8g.nextPage() );
-  
+  } while ( u8g.nextPage() );
+
   // rebuild the picture after some delay
-  delay(10000);
+  delay(2000);
 }

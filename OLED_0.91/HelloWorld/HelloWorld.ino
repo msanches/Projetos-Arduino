@@ -61,7 +61,8 @@ void setup(void) {
 
 void loop(void) {
   u8g2.clearBuffer();					// clear the internal memory
-  u8g2.setFont(u8g2_font_ncenB08_tr);	// choose a suitable font
+//   u8g2.setFont(u8g2_font_logisoso28_tr);  // choose a suitable font at https://github.com/olikraus/u8g2/wiki/
+  u8g2.setFont(u8g2_font_t0_14b_te);	// choose a suitable font
   u8g2.drawStr(0,10,"Hello World!");	// write something to the internal memory
   u8g2.setCursor(4, 29);
   u8g2.print(time);

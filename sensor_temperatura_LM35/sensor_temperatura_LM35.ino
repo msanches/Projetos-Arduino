@@ -13,5 +13,5 @@ void loop() {
   temperatura = ( 5 * valAnalog * 100) / 1024 ;
   Serial.print(temperatura);
   Serial.println(" C");
-  delay(600) ;
+  delay(1000) ;
 }
