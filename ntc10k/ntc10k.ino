@@ -12,5 +12,5 @@ void loop() {
   Serial.print("Temperatura: "); //IMPRIME O TEXTO NO MONITOR SERIAL
   Serial.print(temperature); //IMPRIME NO MONITOR SERIAL A TEMPERATURA MEDIDA
   Serial.println("ºC"); //IMPRIME O TEXTO NO MONITOR SERIAL
-  delay(1000); //INTERVALO DE 1 SEGUNDO
+  delay(2000); //INTERVALO DE 1 SEGUNDO
 }
